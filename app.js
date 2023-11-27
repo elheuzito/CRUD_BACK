@@ -14,8 +14,8 @@ app.use(morgan('combined'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const key = "";
-const url = "";
+const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11eHhpY3hoY2V0ZWF1eGloYmRuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTkzMDkyMDIsImV4cCI6MjAxNDg4NTIwMn0.9Jggw8eoR6OetUbK9Vtd_1SuGTbHKxT38zP9d63ttRw";
+const url = "https://muxxicxhceteauxihbdn.supabase.co";
 
 const supabase = supabaseClient.createClient(url, key);
 
